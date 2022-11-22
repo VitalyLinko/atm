@@ -41,7 +41,6 @@ public class DataBase {
                 User user = new User(number, pin, money);
                 usersList.add(user);
             }
-            System.out.println(usersList);
             return usersList;
         } catch (NumberFormatException e) {
             System.out.println("Check the data.");
